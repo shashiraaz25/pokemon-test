@@ -1,6 +1,6 @@
 {
   "homepage": "http://shashiraaz25.github.io/pokemon-test",
-  "name": "starlight-frontend",
+  "name": "pokemon-test",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -41,7 +41,7 @@
     "@babel/preset-env": "^7.14.2",
     "@babel/preset-react": "^7.13.13",
     "@types/jest": "^26.0.23",
-    "babel-jest": "^26.6.3",
+    "babel-jest": "^24.9.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "enzyme-to-json": "^3.6.2",
