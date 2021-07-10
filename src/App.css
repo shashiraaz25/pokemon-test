@@ -1,0 +1,9 @@
+.head-box{
+    background: #106b10;
+    color: #fff;
+    padding: 5px 10px;
+}
+.card-body{
+
+    padding: 0 !important;
+}
