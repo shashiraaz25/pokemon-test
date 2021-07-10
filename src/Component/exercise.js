@@ -11,7 +11,7 @@ const Exercise = (props) => {
   };
   return (
     <div className="App" data-test="test-Exercise">
-      <div className="container py-4">
+      <div className="container-fluid py-4">
         <div className="row">
           {props.posts ?
             <>
@@ -21,7 +21,7 @@ const Exercise = (props) => {
                     <div className="card-body">
                       <div className="head-box">
                         <div className="float-start">{post.name.toUpperCase()}</div>
-                        <div className="float-end"> ID:{post.id} {post.title}</div>
+                        <div className="float-end"> ID: {post.id} {post.title}</div>
                         <div className="clearfix"></div>
                       </div>
                       <div className="text-center"> <img style={{ width: "180px" }} src={post.imageUrl} className="logo" alt="logo" /></div>
